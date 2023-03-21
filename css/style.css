@@ -22,7 +22,6 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid blue;
 }
 
 .image {
@@ -42,6 +41,10 @@ html, body {
     cursor: pointer;
 }
 
+.list-menu {
+    display: none;
+}
+
 .sub-list {
     display: flex;
     flex-direction: column;
@@ -49,13 +52,29 @@ html, body {
     align-items: center;
     width: 90vw;
     gap: 1.1rem;
-    border: 1px solid peru;
 }
 
 .links {
     text-decoration: none;
     color: var(--cor01);
     font-family: 'Poppins';
+}
+
+.links::after {
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: #000000;
+    display: block;
+    transition: 0.3s all ease-in-out;
+}
+
+.links:hover::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #000000;
+    display: block;
 }
 
 .menu-links {
