@@ -17,6 +17,7 @@
 html, body {
     height: 100vh;
     background-color: var(--cor04);
+    scroll-behavior: smooth;
 }
 
 .cabecalho {
@@ -197,7 +198,7 @@ div.content-about {
     border-bottom: 3px solid var(--cor02);
 }
 
-.service-1, .service2, .service-3 h2 {
+.service-1 h2, .service-2 h2, .service-3 h2 {
     font-family: 'Poppins';
     color: var(--cor01);
     font-size: 24px;
