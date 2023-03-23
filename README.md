@@ -1,2 +1,2 @@
 # beauty_salon
- Salão de Beleza
+ Site criado apenas para a versão Mobile
